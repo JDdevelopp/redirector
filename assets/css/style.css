@@ -26,7 +26,6 @@ body {
 }
 .redirector_btn_box{
     background: black;
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.545);
     border-radius: 25px;
     height: max-content;
     padding: 25px;
@@ -34,21 +33,18 @@ body {
 }
 .info{
     text-align: center;
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.545);
     font-size: 20px;
     margin-bottom: 25px;
     background: black;
     border-radius: 25px;
-    padding: 10px 10px 0px 10px;
-    display: flex;
+    padding: 20px;
+    color: white;
 }
 .profile_img img{
-    padding: 10px;
-    width: 100px;
-    box-shadow: 0px 0px 10px 0px white;
+    width: 150px;
     border-radius: 100px;
     margin-bottom: 25px;
-    margin-top: 10px;
+
 }
 .info_text{
     padding: 10px;
