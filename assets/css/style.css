@@ -7,7 +7,12 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
 }
+::selection {
+    color: red;
+    background: yellow;
+  }
 
 body {
     background: #1b1b1b;
@@ -30,14 +35,15 @@ h1{
 .redirector_btn_box{
     background: black;
     border-radius: 25px;
-    height: max-content;
+    height: 35vh;
     padding: 25px;
+    overflow-y:auto;
 
 }
 .info{
     text-align: center;
     font-size: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background: black;
     border-radius: 25px;
     padding: 20px;
@@ -66,11 +72,64 @@ h1{
     background: grey;
     color: white;
     letter-spacing: 8px;
+    transform: scale(0.94) rotate(4deg);
 }
 .btn:not(:hover){
     transition: 0.5s;
 }
+.btn-back{
+    color: white;
+    font-weight: 900;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background: grey;
+}
+.btn-back:hover{
+    background: rgb(69, 69, 69);
+    transition: 0.5s;
+    letter-spacing: 6px;
+    transform: scale(0.95);
+}
+.btn-back:not(:hover){
+    transition: 0.5s;
+}
+.redirector_btn_box{
+    background: black;
+    border-radius: 25px;
+    height: 35vh;
+    overflow-y:auto;
+    padding: 25px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
 
+  ::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+footer{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
 @media only screen and (max-width: 600px) {
     body{
         background: #1b1b1b;
@@ -121,7 +180,7 @@ h1{
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         background: black;
         border-radius: 25px;
         padding: 20px;
