@@ -80,22 +80,19 @@ h1{
 .btn-back{
     color: white;
     font-weight: 900;
-    width: 75%;
+    width:25%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 25px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 10px;
-    margin-top: 5px;
+    border-radius: 20px;
     background: grey;
 }
 .btn-back:hover{
     background: rgb(69, 69, 69);
     transition: 0.5s;
-    letter-spacing: 6px;
-    transform: scale(0.95);
+    transform: scale(1.1);
 }
 .btn-back:not(:hover){
     transition: 0.5s;
@@ -124,6 +121,36 @@ h1{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+
+
+/* icons */
+.fa-solid{
+    font-size: 15px;
+}
+.fa-brands{
+    font-size: 25px;
+}
+.fa-spotify{
+    color: #1DB954;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-reddit{
+    color: #FF4500;
+}
+.fa-bell{
+    color: rgb(255, 211, 91);
+    font-size: 25px;
+}
+.fa-user{
+    color: black;
+    font-size: 25px;
+}
+.fa-up-right-from-square{
+    color: black;
+}
 footer{
     color: white;
     font-weight: 900;
