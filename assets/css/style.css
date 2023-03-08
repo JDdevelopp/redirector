@@ -10,8 +10,8 @@
     scroll-behavior: smooth;
 }
 ::selection {
-    color: red;
-    background: yellow;
+    color: white;
+    background: #1b1b1b;
   }
 
 body {
@@ -71,7 +71,7 @@ h1{
     transition: 0.5s;
     background: grey;
     color: white;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
     transform: scale(0.94) rotate(4deg);
 }
 .btn:not(:hover){
@@ -151,12 +151,18 @@ h1{
 .fa-up-right-from-square{
     color: black;
 }
+
+
+/* Footer */
 footer{
     color: white;
     font-weight: 900;
     letter-spacing: 2px;
     margin-top: 20px;
 }
+
+
+/* Code for mobile */
 @media only screen and (max-width: 600px) {
     body{
         background: #1b1b1b;
@@ -223,7 +229,7 @@ footer{
         height:50px;
         font-size: 20px;
         text-transform: uppercase;
-        letter-spacing: 3px;
+        letter-spacing: 3x;
         background: white;
     }
 }
