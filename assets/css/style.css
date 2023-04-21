@@ -80,20 +80,22 @@ h1{
 .btn-back{
     color: white;
     font-weight: 900;
-    width:25%;
+    width:30%;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
     cursor: pointer;
-    padding: 10px;
+    padding: 20px;
+    border: none ;
     border-radius: 20px;
     background: grey;
 }
 .btn-back:hover{
     background: rgb(69, 69, 69);
-    transition: 0.5s;
+    transition: 0.3s;
     transform: scale(1.1);
 }
+
 .btn-back:not(:hover){
     transition: 0.5s;
 }
@@ -153,6 +155,9 @@ h1{
 }
 .fa-instagram{
     color: #d62976;
+}
+.fa-up-long{
+    font-size: 25px;
 }
 
 /* Footer */
