@@ -29,7 +29,6 @@ h1{
     text-align: center;
     width: 450px;
     padding: 20px;
-    height: max-content;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.545);
 }
 .redirector_btn_box{
@@ -58,7 +57,7 @@ h1{
 }
 .btn{
     width: 100%;
-    height:50px;
+    height:max-content;
     font-size: 20px;
     font-weight:600;
     margin-bottom: 10px;
@@ -66,13 +65,16 @@ h1{
     text-transform: uppercase;
     letter-spacing: 3px;
     background: white;
+    padding: 10px;
+
 }
 .btn:hover{
     transition: 0.5s;
     background: grey;
     color: white;
     letter-spacing: 7px;
-    transform: scale(0.94) rotate(4deg);
+    transform: scale(0.93);
+    word-spacing: 10px;
 }
 .btn:not(:hover){
     transition: 0.5s;
@@ -124,7 +126,20 @@ h1{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-
+/* 11111111111111111111111111111111111111111111111111111111111 */
+.btn:hover > .link-desc{
+    color: white;
+    letter-spacing: 1px;
+}
+.link-desc{
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    border-top:2px solid black ;
+    text-transform: none;
+    text-align:center;
+    letter-spacing: 1px;
+}
 
 
 /* icons */
@@ -152,16 +167,16 @@ h1{
     font-size: 25px;
 }
 .fa-up-right-from-square{
-    color: black;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    margin-right: 4px;
 }
 .fa-instagram{
     color: #d62976;
+    margin-left: 0px;
 }
 .fa-up-long{
     font-size: 25px;
-}
-.fa-up-right-from-square{
-    color: rgb(0, 153, 255);
 }
 
 /* Footer */
@@ -183,6 +198,8 @@ footer{
     h1{
         letter-spacing: 3px;
     }
+
+
     .redirector_box{
         background: #1b1b1b;
         border-radius: 50px;
@@ -192,7 +209,6 @@ footer{
         text-align: center;
         width: 85%;
         padding: 20px;
-        height: max-content;
         box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.545);
     }
     .redirector_btn_box{
@@ -239,10 +255,23 @@ footer{
     }
     .btn{
         width: 100%;
-        height:50px;
+        height:max-content;
         font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 3x;
         background: white;
+    }
+    .link-desc{
+        font-size: 10px;
+        margin: 10px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+        border-top:2px solid black ;
+        text-transform: none;
+        letter-spacing: 2px;
+        color: black;
+    }
+    .btn:hover > .link-desc{
+        color: white;
+        letter-spacing: 2px;
     }
 }
