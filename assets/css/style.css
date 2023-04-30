@@ -66,7 +66,6 @@ h1{
     letter-spacing: 3px;
     background: white;
     padding: 10px;
-
 }
 .btn:hover{
     transition: 0.5s;
@@ -75,6 +74,7 @@ h1{
     letter-spacing: 7px;
     transform: scale(0.93);
     word-spacing: 10px;
+    text-shadow:5px 5px 5px black;
 }
 .btn:not(:hover){
     transition: 0.5s;
@@ -126,8 +126,8 @@ h1{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-/* 11111111111111111111111111111111111111111111111111111111111 */
-.btn:hover > .link-desc{
+
+/* .btn:hover > .link-desc{
     color: white;
     letter-spacing: 1px;
 }
@@ -139,12 +139,13 @@ h1{
     text-transform: none;
     text-align:center;
     letter-spacing: 1px;
-}
+} */
 
 
 /* icons */
 .fa-solid{
     font-size: 15px;
+    /* text-shadow: none; */
 }
 .fa-brands{
     font-size: 25px;
@@ -168,8 +169,8 @@ h1{
 }
 .fa-up-right-from-square{
     color:rgb(0, 0, 0);
-    font-size: 15px;
-    margin-right: 4px;
+    font-size: 20px;
+    text-shadow: none;
 }
 .fa-instagram{
     color: #d62976;
@@ -261,7 +262,7 @@ footer{
         letter-spacing: 3x;
         background: white;
     }
-    .link-desc{
+    /* .link-desc{
         font-size: 9px;
         margin: 10px 0px 0px 0px;
         padding: 10px 0px 0px 0px;
@@ -278,5 +279,5 @@ footer{
         color:black;
         font-size: 9px;
         margin-right:3px;
-    }
+    } */
 }
