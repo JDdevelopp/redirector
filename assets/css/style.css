@@ -262,16 +262,21 @@ footer{
         background: white;
     }
     .link-desc{
-        font-size: 10px;
+        font-size: 9px;
         margin: 10px 0px 0px 0px;
         padding: 10px 0px 0px 0px;
         border-top:2px solid black ;
         text-transform: none;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: black;
     }
     .btn:hover > .link-desc{
         color: white;
         letter-spacing: 2px;
+    }
+    .fa-up-right-from-square{
+        color:black;
+        font-size: 9px;
+        margin-right:3px;
     }
 }
