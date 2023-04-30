@@ -272,7 +272,7 @@ footer{
     }
     .btn:hover > .link-desc{
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
     .fa-up-right-from-square{
         color:black;
