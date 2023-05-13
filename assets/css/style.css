@@ -257,6 +257,14 @@ footer{
         overflow-y:auto;
         padding: 25px;
     }
+    .btn:hover{
+        transition: 0.5s;
+        color: white;
+        letter-spacing: 2px;
+        transform: scale(0.93);
+        word-spacing: 5px;
+        text-shadow:7px 7px 6px black;
+    }
     ::-webkit-scrollbar {
         width: 8px;
       }
