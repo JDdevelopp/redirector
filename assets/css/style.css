@@ -99,8 +99,12 @@ h1{
 .btn-spotify:hover{
     background: rgb(1, 237, 32);
 }
-.btn-twitter:hover, .btn-facebook:hover{
+.btn-facebook:hover{
     background: rgb(55, 192, 255);
+}
+.btn-twitter:hover{
+    background: rgb(38, 38, 38);
+    border: 2px solid rgb(38, 38, 38);
 }
 
 .btn-reddit:hover{
@@ -195,7 +199,7 @@ h1{
     color: #1877f2;
 }
 .fa-twitter{
-    color: #1DA1F2;
+    color: #1b1b1b;
 }
 .fa-reddit{
     color: #FF4500;
