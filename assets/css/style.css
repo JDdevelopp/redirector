@@ -169,7 +169,7 @@ h1{
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
 
-/* .btn:hover > .link-desc{
+.btn:hover > .link-desc{
     color: white;
     letter-spacing: 1px;
 }
@@ -181,7 +181,7 @@ h1{
     text-transform: none;
     text-align:center;
     letter-spacing: 1px;
-} */
+}
 
 
 /* icons */
